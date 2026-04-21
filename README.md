@@ -1,45 +1,29 @@
-eCommerce Website – Web Technologies Lab Project
+Lifestyle E-commerce Store
 
-This eCommerce website was developed by me as a Fifth Semester student as part of my Web Technologies final lab terminal project. The project was built completely from scratch, focusing on implementing core web development concepts in a practical, real-world scenario.
+A simple e-commerce platform for buying lifestyle products online.
 
-The website is designed using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL, and it provides essential eCommerce functionalities such as user management, product listing, and order handling.
+Features
+- User signup/login
+- Product catalog
+- Shopping cart
+- Order management
+- Order history
+- User profile settings
 
- Technologies Used
+Tech Stack
+- Frontend: HTML, CSS, Bootstrap, jQuery
+- Backend: PHP
+- Database: MySQL
+- Server: XAMPP
 
-Frontend: HTML, CSS, Bootstrap, JavaScript
+Pages
+- Home, Products, Login, Signup
+- Cart, Order, Order History
+- Settings, About, Contact
 
-Backend: PHP
-
-Database: MySQL (MySQLi)
-
-Server: XAMPP (Apache & MySQL)
-
- Project Features
-
-User authentication and management
-
-Product listing and product details pages
-
-Add to cart functionality
-
-Order and purchase record management
-
-Secure storage of users, products, and order data in the database
-
-Responsive UI using Bootstrap
-
- Learning Outcomes
-
-Through this project, I learned:
-
-How to apply core web development concepts in real-world projects
-
-How frontend and backend communicate using PHP and MySQL
-
-How to design and manage databases for dynamic applications
-
-How to solve real development problems while building a complete system
-
-How to structure and organize a full-stack web project efficiently
-
-This project helped me strengthen my understanding of full-stack web development and enhanced my problem-solving skills.
+Key Files
+- `includes/common.php` - Database connection
+- `index.php` - Home page
+- `products.php` - Product listing
+- `cart.php` - Shopping cart
+- `store.sql` - Database schema
